@@ -1,3 +1,4 @@
+import {version} from '../package.json'
 export interface IssuerMetadata {
   issuer: string
   authorization_endpoint?: string
@@ -368,3 +369,12 @@ export interface DeviceTokenEndpointRequest {
   client_id: string
   device_code: string
 }
+
+declare global {
+  interface Window {
+    UD_VERSIONS: any
+  }
+}
+
+window.UD_VERSIONS = window.UD_VERSIONS || {}
+window.UD_VERSIONS.COMMON = version

@@ -1,6 +1,6 @@
 # @uauth/bnc-onboard
 
-> *The v1 Blocknative Onboard library has been deprecated in favor of Web3 Onboard. For Onboard v2.0.0 and later, see [@uauth/web3-onboard](../web3-onboard/README.md) and the [example project](../../examples/web3-onboard/README.md).* 
+> _The v1 Blocknative Onboard library has been deprecated in favor of Web3 Onboard. For Onboard v2.0.0 and later, see [@uauth/web3-onboard](../web3-onboard/README.md) and the [example project](../../examples/web3-onboard/README.md)._
 
 ## Integration Guides
 

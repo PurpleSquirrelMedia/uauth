@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pull-requests: write 
+      pull-requests: write
     steps:
       # Checkout the branch
       - name: checkout
@@ -26,7 +26,7 @@ jobs:
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
-          
+
       - name: add changelog, does nothing if already there
         run: |
           git add CHANGELOG.md

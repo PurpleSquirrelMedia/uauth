@@ -5,26 +5,28 @@ This is an example project demonstrating the use of [`@uauth/moralis`](../../pac
 ## Running this Project
 
 1. Build your local `uauth` packages.
-    ```shell
-    # From the top level of the uauth repo
-    yarn install
-    yarn build
-    ```    
-    Or add a live version of the `@uauth/moralis` package to this project.
-    ```shell
-    # Inside this project folder
-    yarn add @uauth/moralis
-    ```
+
+   ```shell
+   # From the top level of the uauth repo
+   yarn install
+   yarn build
+   ```
+
+   Or add a live version of the `@uauth/moralis` package to this project.
+
+   ```shell
+   # Inside this project folder
+   yarn add @uauth/moralis
+   ```
 
 2. Install the project dependencies.
-    ```shell
-    yarn install
-    ```
-    
+   ```shell
+   yarn install
+   ```
 3. Start the development server.
-    ```shell
-    yarn start
-    ```
+   ```shell
+   yarn start
+   ```
 
 ## Files
 
@@ -35,4 +37,3 @@ This is an example project demonstrating the use of [`@uauth/moralis`](../../pac
 ## Integration Guides
 
 For step-by-step instructions for integrating with `@uauth/moralis`, see the [Login Integration Pathways](https://docs.unstoppabledomains.com/login-with-unstoppable/get-started-login/integration-pathways/) and the [Moralis](https://docs.unstoppabledomains.com/login-with-unstoppable/login-integration-guides/moralis-guide/) integration guide.
-

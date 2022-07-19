@@ -5,26 +5,26 @@ This is an example project demonstrating the use of [`@uauth/node`](../../packag
 ## Running this Project
 
 1. Build your local copy of the `uauth` repo.
-    ```shell
-    # From the top level of the uauth repo
-    yarn install
-    yarn build
-    ```    
-    Or add a live version of the `@uauth/node` package to the project.
-    ```shell
-    # Inside this project folder
-    yarn add @uauth/node
-    ```
-    
+   ```shell
+   # From the top level of the uauth repo
+   yarn install
+   yarn build
+   ```
+   Or add a live version of the `@uauth/node` package to the project.
+   ```shell
+   # Inside this project folder
+   yarn add @uauth/node
+   ```
 2. Install the project dependencies.
-    ```shell
-    yarn install
-    ```
+
+   ```shell
+   yarn install
+   ```
 
 3. Start the development server.
-    ```shell
-    yarn start
-    ```
+   ```shell
+   yarn start
+   ```
 
 ## Integration Guides
 

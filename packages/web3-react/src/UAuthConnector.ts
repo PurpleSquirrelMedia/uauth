@@ -10,6 +10,7 @@ import {
   ConnectorEvent,
   ConnectorUpdate,
 } from '@web3-react/types'
+import {version} from '../package.json'
 
 export interface UAuthConnectors {
   injected: AbstractConnector
@@ -34,6 +35,15 @@ export interface ConnectorLoginCallbackOptions {
   onError?: (error: Error) => void
   throwErrors?: boolean
 }
+
+declare global {
+  interface Window {
+    UD_VERSIONS: any
+  }
+}
+
+window.UD_VERSIONS = window.UD_VERSIONS || {}
+window.UD_VERSIONS.WEB3_REACT = version
 
 class UAuthConnector extends AbstractConnector {
   static UAuth: typeof UAuth

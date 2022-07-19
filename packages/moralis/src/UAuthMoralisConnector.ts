@@ -6,15 +6,20 @@ import AbstractWeb3Connector from './AbstractWeb3Connector'
 
 import {getMoralisRpcs} from './MoralisRpcs'
 import verifyChainId from './Utils'
+import {version} from '../package.json'
 
 interface Window {
   WalletConnectProvider: any
   ethereum?: any
   Buffer?: any
+  UD_VERSIONS?: any
 }
 
 // eslint-disable-next-line no-var
 declare var window: Window
+
+window.UD_VERSIONS = window.UD_VERSIONS || {}
+window.UD_VERSIONS.MORALIS = version
 
 export interface UAuthMoralisConnectors {
   injected: any | undefined

@@ -5,26 +5,26 @@ This is an example project demonstrating a simple Login with Unstoppable applica
 ## Running this Project
 
 1. Build your local `uauth` packages.
-    ```shell
-    # From the top level of the uauth repo
-    yarn install
-    yarn build
-    ```    
-    Or add a live version of the `@uauth/js` package to this project.
-    ```shell
-    # Inside this project folder
-    yarn add @uauth/js
-    ```
-    
+   ```shell
+   # From the top level of the uauth repo
+   yarn install
+   yarn build
+   ```
+   Or add a live version of the `@uauth/js` package to this project.
+   ```shell
+   # Inside this project folder
+   yarn add @uauth/js
+   ```
 2. Install the project dependencies.
-    ```shell
-    yarn install
-    ```
+
+   ```shell
+   yarn install
+   ```
 
 3. Start the development server.
-    ```shell
-    yarn dev
-    ```
+   ```shell
+   yarn dev
+   ```
 
 ## Resources
 

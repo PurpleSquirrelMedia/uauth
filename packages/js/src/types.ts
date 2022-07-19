@@ -1,7 +1,7 @@
 import type {DomainResolver} from '@uauth/common'
 import type {AuthorizeRequest} from './api'
 import type {Store, StoreType} from './store'
-
+import {version} from '../package.json'
 export interface Fetcher {
   fetch(input: RequestInfo, init: RequestInit): Promise<Response>
 }
@@ -230,3 +230,12 @@ export interface LogoutOptions extends BaseLogoutOptions, AuthorizationOptions {
   state?: any
   beforeRedirect?(url: string): Promise<void> | void
 }
+
+declare global {
+  interface Window {
+    UD_VERSIONS: any
+  }
+}
+
+window.UD_VERSIONS = window.UD_VERSIONS || {}
+window.UD_VERSIONS.JS = version

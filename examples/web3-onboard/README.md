@@ -5,26 +5,26 @@ This is an example project demonstrating the use of [`@uauth/web3-onboard`](../.
 ## Running this Project
 
 1. Build your local `uauth` packages.
-    ```shell
-    # From the top level of the uauth repo
-    yarn install
-    yarn build
-    ```    
-    Or add live versions of the `@uauth/js` and `@uauth/web3-onboard` packages to this project.
-    ```shell
-    # Inside this project folder
-    yarn add @uauth/web3-onboard
-    ```
-    
+   ```shell
+   # From the top level of the uauth repo
+   yarn install
+   yarn build
+   ```
+   Or add live versions of the `@uauth/js` and `@uauth/web3-onboard` packages to this project.
+   ```shell
+   # Inside this project folder
+   yarn add @uauth/web3-onboard
+   ```
 2. Install the project dependencies.
-    ```shell
-    yarn install
-    ```
+
+   ```shell
+   yarn install
+   ```
 
 3. Start the development server.
-    ```shell
-    yarn start
-    ```
+   ```shell
+   yarn start
+   ```
 
 ## Integration Guides
 

@@ -233,9 +233,9 @@ export interface LogoutOptions extends BaseLogoutOptions, AuthorizationOptions {
 
 declare global {
   interface Window {
-    UD_VERSIONS: any
+    UAUTH_VERSIONS: any
   }
 }
 
-window.UD_VERSIONS = window.UD_VERSIONS || {}
-window.UD_VERSIONS.JS = version
+window.UAUTH_VERSIONS = window.UAUTH_VERSIONS || {}
+window.UAUTH_VERSIONS.JS = version

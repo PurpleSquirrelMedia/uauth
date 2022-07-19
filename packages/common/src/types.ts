@@ -372,9 +372,9 @@ export interface DeviceTokenEndpointRequest {
 
 declare global {
   interface Window {
-    UD_VERSIONS: any
+    UAUTH_VERSIONS: any
   }
 }
 
-window.UD_VERSIONS = window.UD_VERSIONS || {}
-window.UD_VERSIONS.COMMON = version
+window.UAUTH_VERSIONS = window.UAUTH_VERSIONS || {}
+window.UAUTH_VERSIONS.COMMON = version

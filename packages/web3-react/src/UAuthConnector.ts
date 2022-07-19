@@ -38,12 +38,12 @@ export interface ConnectorLoginCallbackOptions {
 
 declare global {
   interface Window {
-    UD_VERSIONS: any
+    UAUTH_VERSIONS: any
   }
 }
 
-window.UD_VERSIONS = window.UD_VERSIONS || {}
-window.UD_VERSIONS.WEB3_REACT = version
+window.UAUTH_VERSIONS = window.UAUTH_VERSIONS || {}
+window.UAUTH_VERSIONS.WEB3_REACT = version
 
 class UAuthConnector extends AbstractConnector {
   static UAuth: typeof UAuth

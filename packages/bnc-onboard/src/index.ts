@@ -9,12 +9,12 @@ import type {API, WalletModule} from 'bnc-onboard/dist/src/interfaces'
 import {version} from '../package.json'
 declare global {
   interface Window {
-    UD_VERSIONS: any
+    UAUTH_VERSIONS: any
   }
 }
 
-window.UD_VERSIONS = window.UD_VERSIONS || {}
-window.UD_VERSIONS.BNC_ONBOARD = version
+window.UAUTH_VERSIONS = window.UAUTH_VERSIONS || {}
+window.UAUTH_VERSIONS.BNC_ONBOARD = version
 
 export interface ConstructorOptions extends Partial<UAuthConstructorOptions> {
   uauth?: UAuth

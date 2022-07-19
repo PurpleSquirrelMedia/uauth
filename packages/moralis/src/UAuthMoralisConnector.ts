@@ -12,14 +12,14 @@ interface Window {
   WalletConnectProvider: any
   ethereum?: any
   Buffer?: any
-  UD_VERSIONS?: any
+  UAUTH_VERSIONS?: any
 }
 
 // eslint-disable-next-line no-var
 declare var window: Window
 
-window.UD_VERSIONS = window.UD_VERSIONS || {}
-window.UD_VERSIONS.MORALIS = version
+window.UAUTH_VERSIONS = window.UAUTH_VERSIONS || {}
+window.UAUTH_VERSIONS.MORALIS = version
 
 export interface UAuthMoralisConnectors {
   injected: any | undefined
